@@ -1,0 +1,17 @@
+This directory contains some sample output files, generated
+with the TUV model.  Five different cases are given, using
+different default input files:
+
+INPUT :  OUTPUT   LOG
+________________________
+defin1:  usrout1  tuvlog1
+defin2:  usrout2  tuvlog2
+defin3:  usrout3  tuvlog3
+defin4:  usrout4  tuvlog4
+defin5:  sq_wrf   tuvlog5
+___________________________________________________________
+Last build:  9 January 2019
+(very low values were zeroed out by disort because ABSCUT = 10.  Now with
+ABSCUT = 1000. the new values are very small but not zero.  This affects
+mainly tropospheric UV-C values which are very low.)
+by S. Madronich
